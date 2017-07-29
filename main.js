@@ -101,8 +101,8 @@ function resetToDefault(){
 		/*elements[i].style.backgroundColor = "white";
 		elements[0].parentNode.removeChild(elements[0]);*/
 	}
-	boardX = Number(prompt("Podaj ile ma być kratek X (mniej niż 90):", "16"));
-	boardY = Number(prompt("Podaj ile ma być kratek Y (mniej niż 90):", "16"));
+	boardX = Number(prompt("Podaj liczbę  kratek X (mniej niż 90):", "16"));
+	boardY = Number(prompt("Podaj liczbę  kratek Y (mniej niż 90):", "16"));
 	
 	boardX = Math.floor(boardX);
 	boardY = Math.floor(boardY);
