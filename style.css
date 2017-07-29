@@ -1,0 +1,130 @@
+h1{
+	border:solid;
+	text-align:center;
+}
+#colorpicker{
+	border:solid 1px;
+	height:80px;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:15px;
+	
+}
+
+p{
+	border:solid;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-10px;
+	text-align:center;
+	}
+
+#black{
+background-color:black;	
+}
+
+#brown{
+background-color:brown;
+}
+
+#red{
+background-color:red;
+border-color:red;
+}
+
+#blue{
+background-color:blue;
+border-color:blue;
+}
+
+#green{
+background-color:green;
+border-color:green;
+}
+
+#yellow{
+background-color:yellow;
+border-color:yellow;
+}
+#white{
+background-color:white;
+}
+
+#opacity{
+background-color:black;
+opacity:0.1;
+transition: opacity, 0.5s;
+}
+
+#pink{
+	background-color:pink;
+}
+#opacity:hover{
+	opacity:1;
+}
+
+#rainbow{
+  background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+}
+
+#random{
+text-align:center;
+font-size:35px;
+background-color:black;
+color:white;
+}
+
+.color{
+display:inline-block;
+margin-top:-20px;
+border:solid 1px;
+width:50px;
+height:40px;
+margin-left:40px;
+vertical-align:top;
+}
+
+.color:hover{
+	cursor:crosshair;
+}
+
+#mainboard{
+
+	margin-top:20px;
+	width:550px;
+	height:550px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:0;
+	box-sizing:border-box;
+	}
+	
+
+#mainboard>div{
+	margin-top:0px;
+	background-color:white;
+	outline:solid 1px;
+}
+
+button{
+display:block;
+margin-top:30px;
+margin-left:auto;
+margin-right:auto;
+width:50px;
+width:200px;
+height:50px;
+background-color:#E54222;
+color:#333333;
+box-shadow:1px 1px 2px black;
+font-size:20px;
+border:0;
+}
+#Author{
+position:absolute;
+bottom:0px;	
+border:solid 1px;
+width:200px;
+
+}
